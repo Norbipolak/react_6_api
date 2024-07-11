@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 15px;
+}
+
+/*
+Mi kell ahhoz, hogy csináljunk egy box-ot, kell egy border egy padding és egy background-color is lehet, de az első kettő az kell hozzá 
+és akkor olyan nagy lesz a box amennyit bele írunk!!! 
+*/
+
+.center-text {
+    text-align: center;
+}
+
+.mw-500 {
+    max-width: 500px;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+button, select, input {
+    padding: 8px;
+}
+
+/*
+még ami fontos, hogy adjunk a button-nek meg ezeknek egy display: block-ot, mert ezek alapból nem block elemek és még emellé tudunk neki adni 
+egy margin-t is, úgyhogy a left-right az auto legyen, hogy horizontálisan középen legyen és fent-lent pedig legyen is kis távolság, mondjuk 
+mint itt, hogy 10px!!
+*/
+
+.center-input {
+    display: block;
+    margin: 10px auto;
+}
+
+.w-80 {
+    width: 80%;
+}
